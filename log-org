@@ -1,0 +1,10 @@
+logs/
+├── nginx/
+│   ├── access.log
+│   └── error.log
+├── app/
+│   ├── api.log
+│   └── backend.log
+└── system/
+    ├── syslog
+    └── auth.log
