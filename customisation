@@ -1,0 +1,9 @@
+patterns: {
+  // Existing patterns
+  error: /(error|exception|fail|failed|failing)/i,
+  
+  // Custom patterns for your environment
+  kubernetes: /(pod|node|cluster|k8s|kube)/i,
+  database: /(database|db|sql|query|timeout)/i,
+  network: /(network|connection|timeout|unreachable)/i
+}
